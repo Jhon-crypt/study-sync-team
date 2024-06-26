@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { headers } from 'next/headers';
-//import bcrypt from "bcrypt";
+import bcrypt from "bcrypt";
 import supabase from "@/app/config/supabase";
 import { v4 as uuidv4 } from 'uuid';
 //import { Resend } from 'resend';
